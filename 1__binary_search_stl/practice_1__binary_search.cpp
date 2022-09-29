@@ -36,6 +36,8 @@ int main() {
 	// if element present in array, returns iterator of that element,
 	// else returns iterator to the next greater element
 
+	// if there will be multiple occurrence of same element, it will return the iterator of the first occurrence
+
 	// to convert iterator into index, subtract base address/ array name from it
 
 
@@ -62,7 +64,7 @@ int main() {
 
 	// upper_bound: same as binary search, but
 	// returns iterator of the next greater element ALWAYS
-
+	// if there will be multiple occurrence of same element, it will return the iterator of the element next to the last occurrence
 
 	// int arr[] = {1, 4, 5, 8, 9};
 
